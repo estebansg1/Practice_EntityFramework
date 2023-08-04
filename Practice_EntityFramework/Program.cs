@@ -54,4 +54,5 @@ foreach (var item  in developersgames)
     Console.WriteLine(item.Platform);
     Console.WriteLine(item.Developer);
     Console.WriteLine(item.Price);
+    Console.WriteLine(" ");
 }

@@ -18,7 +18,7 @@ namespace Sample.Data
         {
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
-            DbPath = System.IO.Path.Join(path, "bLibrary.db");
+            DbPath = System.IO.Path.Join(path, "DbLibrary.db");
         }
 
 
